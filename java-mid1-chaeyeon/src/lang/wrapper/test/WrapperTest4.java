@@ -8,10 +8,10 @@ public class WrapperTest4 {
         Integer integer1 = Integer.valueOf(str);
         System.out.println("integer1 = " + integer1);
 
-        int intValue = Integer.parseInt(str);
+        int intValue = integer1;
         System.out.println("intValue = " + intValue);
 
-        Integer integer2 = Integer.valueOf(str);
+        Integer integer2 = intValue;
         System.out.println("integer2 = " + integer2);
 
     }
